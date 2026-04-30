@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
+public void main() {
 
-public class main {
 }
