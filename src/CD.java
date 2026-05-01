@@ -25,4 +25,14 @@ public class CD {
         System.out.println("Faixas: " + numeroDeFaixa);
         System.out.println("Duração: " + duracaoTotal + " minutos");
     }
+
+    @Override
+    public String toString() {
+        return "CD{" +
+                "titulo='" + titulo + '\'' +
+                ", artista='" + artista + '\'' +
+                ", numeroDeFaixa=" + numeroDeFaixa +
+                ", duracaoTotal=" + duracaoTotal +
+                '}';
+    }
 }
